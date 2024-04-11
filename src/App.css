@@ -1,0 +1,137 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.startPage_inner {
+  background-image: url('./assets/target-arrow.png');
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 98%;
+  min-height: 99vmin;
+  padding-top: 10px;
+}
+.startPage_inner > h3 {
+  text-align: center;
+}
+
+.containerDiv-home {
+  width: 98%;
+  min-height: 99vmin;
+  padding-top: 10px;
+}
+.containerHome {
+  text-align: center;
+  width: 99%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.containerHome > input {
+  margin: 8px;
+  width: 30%;
+}
+
+.containerHome > textarea{
+  margin: 8px;
+  width: 60%;
+  height: 40%;
+}
+.containerHome > button {
+  margin: 8px;
+}
+
+.Details-Page {
+
+  width: 98%;
+  min-height: 99vmin;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin: 10px;
+}
+
+.cardButtons {
+  display: flex;
+  row-gap: 5px;
+}
+
+.cardButtons > button {
+  margin: 4px;
+}
+
+.cardButtons > Link {
+  /* text-align: center; */
+  width: 30%;
+  margin: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Signup-Div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* line-height: 3%; */
+  /* width: 98%; */
+  /* background-color: orangered; */
+  padding-top: 12px;
+}
+.Signup-Div > input {
+  margin: 5px 5px 5px 0;
+  width: 20%;
+
+}
+.Signup-Div > button {
+  margin: 10px 0 10px 0;
+}
+
+.Login-Div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
+  align-items: center;
+  /* line-height: 3%; */
+  /* width: 98%; */
+  /* background-color: orangered; */
+  padding-top: 12px;
+}
+.Login-Div > input {
+  margin: 5px 0 5px 0;
+  width: 20%;
+
+}
+.Login-Div > button {
+  margin: 10px 0 10px 0;
+}
